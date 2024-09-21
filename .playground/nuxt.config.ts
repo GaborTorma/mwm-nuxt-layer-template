@@ -1,19 +1,11 @@
 export default defineNuxtConfig({
+  compatibilityDate: '2024-09-17',
   future: {
     compatibilityVersion: 4,
   },
-  compatibilityDate: '2024-07-18',
 
-  extends: ['..'],
-
-  modules: [
-    '@nuxt/eslint',
+  extends: [
+    '@gabortorma/nuxt-eslint-layer',
+    '..',
   ],
-
-  eslint: {
-    checker: true,
-    config: {
-      standalone: false,
-    },
-  },
 })
