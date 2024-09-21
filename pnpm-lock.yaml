@@ -16,7 +16,7 @@ importers:
         version: 3.5.7(typescript@5.6.2)
     devDependencies:
       '@gabortorma/mwm':
-        specifier: ^0.8.6
+        specifier: ^0.8.8
         version: link:../..
       '@gabortorma/nuxt-eslint-layer':
         specifier: ^0.1.0
