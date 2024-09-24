@@ -36,9 +36,9 @@
     "vue": "^3.4.0"
   },
   "devDependencies": {
-    "@gabortorma/mwm": "^0.8.8",
+    "@gabortorma/mwm": "^0.8.10",
     "@gabortorma/nuxt-eslint-layer": "^0.2.1",
-    "@types/node": "^22.5.5",
+    "@types/node": "^22.6.1",
     "dotenv-cli": "^7.4.2",
     "nuxi": "^3.13.2",
     "release-it": "^17.6.0",
