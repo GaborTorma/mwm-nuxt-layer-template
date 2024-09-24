@@ -1,1 +1,2 @@
-typescript.tsConfig.include.0 = ../../.release-it.ts
+typescript.tsConfig.include.0 = ../../**/*
+typescript.tsConfig.include.1 = ../../.release-it.ts
