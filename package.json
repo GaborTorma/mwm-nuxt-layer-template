@@ -21,14 +21,15 @@
   "main": "./nuxt.config.ts",
   "scripts": {
     "dev": "nuxi dev .playground",
-    "dev:build": "nuxi build .playground",
-    "dev:prepare": "nuxt prepare .playground",
+    "build": "nuxi build .playground",
+    "prepare": "nuxt prepare .playground",
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "dotenv release-it",
-    "postinstall": "pnpm dev:prepare"
+    "test:types": "vue-tsc --noEmit",
+    "prerelease": "nr lint && nr test:types",
+    "release": "dotenv release-it"
   },
   "peerDependencies": {
     "nuxt": "^3.12.0",
@@ -36,7 +37,7 @@
   },
   "devDependencies": {
     "@gabortorma/mwm": "^0.8.8",
-    "@gabortorma/nuxt-eslint-layer": "^0.1.3",
+    "@gabortorma/nuxt-eslint-layer": "^0.2.1",
     "@types/node": "^22.5.5",
     "dotenv-cli": "^7.4.2",
     "nuxi": "^3.13.2",
