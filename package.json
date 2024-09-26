@@ -36,11 +36,12 @@
     "vue": "^3.4.0"
   },
   "devDependencies": {
-    "@gabortorma/mwm": "^0.8.10",
+    "@antfu/ni": "^0.23.0",
+    "@gabortorma/mwm": "^0.8.12",
     "@gabortorma/nuxt-eslint-layer": "^0.2.1",
-    "@types/node": "^22.6.1",
+    "@types/node": "^22.7.2",
     "dotenv-cli": "^7.4.2",
-    "nuxi": "^3.13.2",
+    "nuxi": "^3.14.0",
     "release-it": "^17.6.0",
     "typescript": "^5.6.2"
   }
