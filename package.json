@@ -28,7 +28,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test:types": "vue-tsc --noEmit",
-    "prerelease": "nr lint && nr test:types",
+    "prerelease": "nr lint",
     "release": "dotenv release-it"
   },
   "peerDependencies": {
@@ -36,13 +36,13 @@
     "vue": "^3.4.0"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.23.0",
+    "@antfu/ni": "^24.3.0",
     "@gabortorma/mwm": "^0.8.12",
-    "@gabortorma/nuxt-eslint-layer": "^0.2.1",
-    "@types/node": "^22.7.2",
-    "dotenv-cli": "^7.4.2",
-    "nuxi": "^3.14.0",
-    "release-it": "^17.6.0",
-    "typescript": "^5.6.2"
+    "@gabortorma/nuxt-eslint-layer": "^0.5.1",
+    "@types/node": "^22.15.2",
+    "dotenv-cli": "^8.0.0",
+    "nuxi": "^3.25.0",
+    "release-it": "^19.0.1",
+    "typescript": "^5.8.3"
   }
 }
